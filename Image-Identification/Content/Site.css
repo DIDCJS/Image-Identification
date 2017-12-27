@@ -1,0 +1,57 @@
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color:white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.wb{
+    background-color:#e6ecf0;
+}
+
+.container{
+    height: 100%;
+    max-width: 890px;
+    text-align: center;
+    width: auto;
+}
+
+.global-nav{
+    border-bottom: 1px solid #ddd;
+    height: 42px;
+    position: relative;
+    width: 100%;
+    background-color:#e6ecf0;
+}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{
+    background-color:white;
+}
+
+.page-container{
+    min-height: 810px;
+    text-align: center;
+    width: auto;
+}
+
+.bg{
+    background-image:url(Image/IMG_1087.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+footer{
+    padding-top:50px;
+}
